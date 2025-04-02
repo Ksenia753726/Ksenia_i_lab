@@ -1,0 +1,16 @@
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dll
+*.tmp
+*.swp
+*.log
+build/
+bin/
+obj/
+.vs/
+.idea/
+*.sln
+*.user
