@@ -16,7 +16,7 @@ void DeleteArray(int32_t**& array, int32_t degree) {
 	for (int32_t i{}; i < degree; ++i) {
 		delete[] array[i];
 	}
-	
+	delete[] array;
 }
 
 void FillPascalTriangle(int32_t**& mtr, int32_t degree) {
